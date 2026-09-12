@@ -1,5 +1,6 @@
 'use client';
 
+import type { ReactNode } from "react";
 import { useMemo, useState } from "react";
 import {
   ArrowRight, BarChart3, CheckCircle2, Code2, Database, Facebook,
@@ -8,7 +9,7 @@ import {
 } from "lucide-react";
 import content from "@/data/content.json";
 
-const iconMap: Record<string, React.ReactNode> = {
+const iconMap: Record<string, ReactNode> = {
   meta: <Facebook size={26} />,
   gtm: <MousePointer2 size={26} />,
   ga4: <BarChart3 size={26} />,
