@@ -2,61 +2,153 @@
   "site": {
     "name": "Md. Shahjalal Ahmed",
     "shortName": "SA.",
-    "eyebrow": "META ADS & TRACKING SPECIALIST",
-    "headline": "Paid Traffic.\nBetter Tracking.\nReal Growth.",
-    "description": "I help businesses grow through Meta Ads, precise tracking (GTM & GA4), and data-driven strategies that turn ad spend into measurable revenue.",
+    "eyebrow": "META ADS & CONVERSION TRACKING SPECIALIST",
+    "headline": "Paid traffic,\nmeasured properly.\nOptimized to grow.",
+    "description": "I help businesses make Meta Ads more accountable with sharper campaign strategy, reliable GTM & GA4 tracking, and measurement built for better decisions.",
     "primaryCta": "View Case Studies",
     "secondaryCta": "Work With Me"
   },
   "services": [
-    {"title":"Meta Ads","description":"Strategy, campaign setup, optimization and scaling for measurable business growth.","icon":"meta"},
-    {"title":"Google Tag Manager","description":"Event tracking, custom events, server-side setup and a clean data layer.","icon":"gtm"},
-    {"title":"Google Analytics 4","description":"Accurate measurement, reports and insights for better data-driven decisions.","icon":"ga4"},
-    {"title":"Conversion Tracking","description":"Meta Pixel, Conversion API and end-to-end tracking solutions.","icon":"tracking"}
+    {
+      "title": "Meta Ads",
+      "description": "Campaign strategy, setup, optimization and scaling built around business objectives.",
+      "icon": "meta"
+    },
+    {
+      "title": "Conversion Tracking",
+      "description": "Reliable measurement across the customer journey, from click to conversion.",
+      "icon": "tracking"
+    },
+    {
+      "title": "Google Tag Manager",
+      "description": "Structured event tracking and implementation that keeps your data layer clean.",
+      "icon": "gtm"
+    },
+    {
+      "title": "Google Analytics 4",
+      "description": "GA4 configuration and reporting that turns customer behaviour into useful insight.",
+      "icon": "ga4"
+    }
   ],
   "about": {
-    "title": "A Performance-Focused Digital Marketing Specialist",
-    "body": "I’m Md. Shahjalal Ahmed. I help businesses grow through Meta Ads, tracking (GTM & GA4), and data-driven strategies. My focus is simple — strategy, clean tracking, and measurable results.",
+    "title": "I work where paid acquisition meets measurement.",
+    "body": "My work sits at the intersection of Meta Ads and the data behind them. I build campaigns, tracking systems, and reporting that make performance easier to understand—and easier to improve.",
     "principles": [
-      ["Strategy First","Understand business goals"],
-      ["Data-Driven","Track, measure, optimize"],
-      ["Result Oriented","Focus on real growth"],
-      ["Long-Term Partnership","Your growth is the goal"]
+      [
+        "Strategy First",
+        "Start with the business objective."
+      ],
+      [
+        "Clean Measurement",
+        "Know what is actually happening."
+      ],
+      [
+        "Continuous Optimization",
+        "Use the data to improve decisions."
+      ],
+      [
+        "Built for Growth",
+        "Focus on outcomes, not activity."
+      ]
     ]
   },
   "proof": [
-    ["3+","Years of Experience"],
-    ["50+","Campaigns Managed"],
-    ["5+","Countries"],
-    ["5+","Clients"]
+    [
+      "3+",
+      "Years of Experience"
+    ],
+    [
+      "50+",
+      "Campaigns Managed"
+    ],
+    [
+      "5+",
+      "Countries"
+    ],
+    [
+      "5+",
+      "Clients"
+    ]
   ],
   "featuredCaseStudy": {
-    "eyebrow":"FEATURED CASE STUDY",
-    "title":"Scaling an E-commerce Brand with Meta Ads",
-    "summary":"A representative case-study layout for the final verified results, campaign strategy, tracking setup and optimization story.",
-    "metrics":[["Verified Result","Revenue increase"],["Verified ROAS","Return on ad spend"],["Verified CPA","Cost per purchase"],["Verified Period","Campaign duration"]]
+    "eyebrow": "FEATURED CASE STUDY",
+    "title": "Scaling an E-commerce Brand with Meta Ads",
+    "summary": "A representative case-study layout for the final verified results, campaign strategy, tracking setup and optimization story.",
+    "metrics": [
+      [
+        "Verified Result",
+        "Revenue increase"
+      ],
+      [
+        "Verified ROAS",
+        "Return on ad spend"
+      ],
+      [
+        "Verified CPA",
+        "Cost per purchase"
+      ],
+      [
+        "Verified Period",
+        "Campaign duration"
+      ]
+    ]
   },
   "caseStudies": [
-    {"title":"E-commerce Growth","category":"Meta Ads","description":"Campaign strategy, tracking and optimization.","image":""},
-    {"title":"Local Business Acquisition","category":"Meta Ads","description":"Lead generation and measurement.","image":""},
-    {"title":"Education Brand","category":"Meta Ads","description":"Paid acquisition and conversion tracking.","image":""}
+    {
+      "title": "E-commerce Growth",
+      "category": "Meta Ads",
+      "description": "Campaign strategy, tracking and optimization.",
+      "image": ""
+    },
+    {
+      "title": "Local Business Acquisition",
+      "category": "Meta Ads",
+      "description": "Lead generation and measurement.",
+      "image": ""
+    },
+    {
+      "title": "Education Brand",
+      "category": "Meta Ads",
+      "description": "Paid acquisition and conversion tracking.",
+      "image": ""
+    }
   ],
   "testimonials": [
-    {"quote":"Client testimonial will be published here after verification.","name":"Client Name","role":"Client / Business Owner","rating":5}
+    {
+      "quote": "Client testimonial will be published here after verification.",
+      "name": "Client Name",
+      "role": "Client / Business Owner",
+      "rating": 5
+    }
   ],
   "projects": [
-    {"title":"Meta Ads Campaign","category":"Client Work","description":"Paid acquisition and performance tracking.","image":""},
-    {"title":"Tracking Setup","category":"Client Work","description":"GTM and GA4 measurement implementation.","image":""},
-    {"title":"Vibe Code Project","category":"Vibe Code","description":"A selected AI-assisted coding project.","image":""}
+    {
+      "title": "Meta Ads Campaign",
+      "category": "Client Work",
+      "description": "Paid acquisition and performance tracking.",
+      "image": ""
+    },
+    {
+      "title": "Tracking Setup",
+      "category": "Client Work",
+      "description": "GTM and GA4 measurement implementation.",
+      "image": ""
+    },
+    {
+      "title": "Vibe Code Project",
+      "category": "Vibe Code",
+      "description": "A selected AI-assisted coding project.",
+      "image": ""
+    }
   ],
   "contact": {
-    "headline":"Have a growth problem worth solving?",
-    "body":"Let’s talk about how I can help your business grow with Meta Ads and accurate tracking.",
-    "email":"hello@example.com"
+    "headline": "If growth matters, measurement matters.",
+    "body": "Tell me what you're trying to grow, what's not working, and where you need better visibility.",
+    "email": "hello@example.com"
   },
   "socials": {
-    "linkedin":"",
-    "facebook":"",
-    "github":"https://github.com/tomahmed420"
+    "linkedin": "",
+    "facebook": "",
+    "github": "https://github.com/tomahmed420"
   }
 }
