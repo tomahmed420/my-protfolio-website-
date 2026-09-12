@@ -95,13 +95,20 @@ export default function Home() {
 
       <section id="case-studies" className="section-shell section">
         <div className="section-heading"><p className="eyebrow">{content.featuredCaseStudy.eyebrow}</p><h2>{content.featuredCaseStudy.title}</h2><p>{content.featuredCaseStudy.summary}</p></div>
-        <div className="featured-case">
-          <div className="case-visual"><div className="case-chart"><BarChart3 size={56}/><span>Case study visual</span></div></div>
-          <div className="case-content">
-            <div className="metric-grid">{content.featuredCaseStudy.metrics.map(([value,label]) => <div key={label}><strong>{value}</strong><span>{label}</span></div>)}</div>
-            <a className="btn primary" href="#contact">View Full Case Study <ArrowRight size={17}/></a>
+        <article className="featured-case">
+          <div className="case-visual">
+            <div className="case-chart"><BarChart3 size={52}/><span>Verified performance visual</span></div>
           </div>
-        </div>
+          <div className="case-content">
+            <div className="case-story">
+              <div><span className="story-label">THE CHALLENGE</span><p>Define the business problem and the acquisition constraint before touching the campaigns.</p></div>
+              <div><span className="story-label">THE APPROACH</span><p>Align Meta Ads strategy with a clean measurement setup across GTM and GA4.</p></div>
+              <div><span className="story-label">THE RESULT</span><p>Replace this statement with verified performance data, context and the period measured.</p></div>
+            </div>
+            <div className="metric-grid">{content.featuredCaseStudy.metrics.map(([value,label]) => <div key={label}><strong>{value}</strong><span>{label}</span></div>)}</div>
+            <a className="btn primary" href="#contact">Discuss a Similar Challenge <ArrowRight size={17}/></a>
+          </div>
+        </article>
       </section>
 
       <section className="section-shell section section-muted">
