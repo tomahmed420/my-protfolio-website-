@@ -35,7 +35,7 @@ export default function Home() {
           ].map(([label, href]) => <a key={href} href={href} onClick={() => setMobileOpen(false)}>{label}</a>)}
         </nav>
         <div className="header-actions">
-          <button className="icon-btn" aria-label="Theme"><Moon size={18}/></button>
+          <button className="icon-btn" aria-label="Theme"><Moon size={17}/></button>
           <a className="mini-cta" href="#contact">Let’s Talk <ArrowRight size={15}/></a>
           <button className="menu-btn" onClick={() => setMobileOpen(!mobileOpen)} aria-label="Menu">
             {mobileOpen ? <X size={20}/> : <Menu size={20}/>}
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="portrait-placeholder"><span>SA.</span></div>
             <div className="signature">Md. Shahjalal Ahmed</div>
           </div>
-          <div className="hero-note"><span>Track</span><span>Measure</span><span>Optimize</span><span>Grow</span></div>
+          <div className="hero-note"><span>Strategy</span><span>Measure</span><span>Optimize</span><span>Grow</span></div>
         </div>
       </section>
 
