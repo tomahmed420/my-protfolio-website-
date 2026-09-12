@@ -74,9 +74,9 @@ export default function Home() {
       </section>
 
       <section id="about" className="section-shell section">
-        <div className="section-heading"><p className="eyebrow">ABOUT ME</p><h2>{content.about.title}</h2></div>
+        <div className="section-heading"><p className="eyebrow">ABOUT</p><h2>{content.about.title}</h2></div>
         <div className="about-grid">
-          <div className="about-copy"><p>{content.about.body}</p><a className="text-link" href="#contact">More About Me <ArrowRight size={16}/></a></div>
+          <div className="about-copy"><p>{content.about.body}</p><a className="text-link" href="#contact">Let’s talk about your goals <ArrowRight size={16}/></a></div>
           <div className="principles">
             {content.about.principles.map(([title, body]) => <div className="principle" key={title}><CheckCircle2 size={20}/><div><strong>{title}</strong><small>{body}</small></div></div>)}
           </div>
@@ -87,9 +87,9 @@ export default function Home() {
       </section>
 
       <section id="services" className="section-shell section section-muted">
-        <div className="section-heading"><p className="eyebrow">SERVICES</p><h2>How I Can Help You</h2><p>End-to-end solutions to help you get more from your paid traffic.</p></div>
+        <div className="section-heading"><p className="eyebrow">CORE SERVICES</p><h2>Built around acquisition and measurement.</h2><p>I focus on the systems that determine whether paid traffic becomes measurable business growth.</p></div>
         <div className="service-grid">
-          {content.services.map((service) => <article className="service-card" key={service.title}><div className="service-icon">{iconMap[service.icon]}</div><h3>{service.title}</h3><p>{service.description}</p><a href="#contact">Learn more <ArrowRight size={15}/></a></article>)}
+          {content.services.map((service) => <article className="service-card" key={service.title}><div className="service-icon">{iconMap[service.icon]}</div><h3>{service.title}</h3><p>{service.description}</p><a href="#contact">Discuss this service <ArrowRight size={15}/></a></article>)}
         </div>
       </section>
 
@@ -117,7 +117,7 @@ export default function Home() {
       </section>
 
       <section id="testimonials" className="section-shell section">
-        <div className="section-heading"><p className="eyebrow">TESTIMONIALS</p><h2>What Clients Say</h2><p>Real feedback from real clients.</p></div>
+        <div className="section-heading"><p className="eyebrow">CLIENT FEEDBACK</p><h2>Trusted when measurement matters.</h2><p>Selected feedback from clients and collaborators. Only verified testimonials belong here.</p></div>
         <div className="testimonial-grid">{content.testimonials.map((t) => <article className="testimonial" key={t.name}><p>“{t.quote}”</p><div className="testimonial-meta"><div className="avatar">{t.name.slice(0,1)}</div><div><strong>{t.name}</strong><small>{t.role}</small></div><span>{"★".repeat(t.rating)}</span></div></article>)}</div>
       </section>
 
