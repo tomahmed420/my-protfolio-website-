@@ -77,7 +77,7 @@ export default function Home() {
         <div className="section-heading"><p className="eyebrow">ABOUT</p><h2>{content.about.title}</h2></div>
         <div className="about-grid">
           <div className="about-copy"><p>{content.about.body}</p><a className="text-link" href="#contact">Let’s talk about your goals <ArrowRight size={16}/></a></div>
-          <div className="principles">
+          <div className="principles"><div className="authority-note"><span className="story-label">MY APPROACH</span><strong>Less noise. Better decisions.</strong><p>I prefer a focused system: clear objectives, dependable measurement, and disciplined optimization.</p></div>
             {content.about.principles.map(([title, body]) => <div className="principle" key={title}><CheckCircle2 size={20}/><div><strong>{title}</strong><small>{body}</small></div></div>)}
           </div>
           <div className="proof-grid">
