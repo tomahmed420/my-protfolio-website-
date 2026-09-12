@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       <section className="section-shell section section-muted">
-        <div className="section-heading inline-heading"><div><p className="eyebrow">MORE CASE STUDIES</p><h2>Other Projects & Results</h2></div><a className="text-link" href="#projects">View All <ArrowRight size={16}/></a></div>
+        <div className="section-heading inline-heading"><div><p className="eyebrow">SELECTED WORK</p><h2>Selected work, not a project dump.</h2><p>Focused examples of paid acquisition and measurement work. Detailed proof belongs inside each case study.</p></div><a className="text-link" href="#projects">View All Work <ArrowRight size={16}/></a></div>
         <div className="case-grid">{content.caseStudies.map((item) => <article className="case-card" key={item.title}><div className="image-placeholder"><Gauge size={30}/></div><p className="kicker">{item.category}</p><h3>{item.title}</h3><p>{item.description}</p><a href="#contact">View Case Study <ArrowRight size={15}/></a></article>)}</div>
       </section>
 
@@ -122,7 +122,7 @@ export default function Home() {
       </section>
 
       <section id="projects" className="section-shell section section-muted">
-        <div className="section-heading inline-heading"><div><p className="eyebrow">PROJECTS</p><h2>Other Work & Side Projects</h2><p>A curated mix of client work and Vibe Code experiments.</p></div>
+        <div className="section-heading inline-heading"><div><p className="eyebrow">PROJECTS</p><h2>Client work first. Experiments second.</h2><p>A curated portfolio—not a list of everything I have built.</p></div>
           <div className="segmented"><button className={projectMode==="Client Work"?"active":""} onClick={() => setProjectMode("Client Work")}>Client Work</button><button className={projectMode==="Vibe Code"?"active":""} onClick={() => setProjectMode("Vibe Code")}>Vibe Code</button></div>
         </div>
         <div className="project-grid">{projects.map((p) => <article className="project-card" key={p.title}><div className="image-placeholder"><Code2 size={30}/></div><div><p className="kicker">{p.category}</p><h3>{p.title}</h3><p>{p.description}</p><a href="#contact">View Project <ArrowRight size={15}/></a></div></article>)}</div>
