@@ -54,20 +54,20 @@
   },
   "proof": [
     [
-      "3+",
-      "Years of Experience"
+      "—",
+      "Verified experience"
     ],
     [
-      "50+",
-      "Campaigns Managed"
+      "—",
+      "Verified campaigns"
     ],
     [
-      "5+",
-      "Countries"
+      "—",
+      "Verified markets"
     ],
     [
-      "5+",
-      "Clients"
+      "—",
+      "Verified clients"
     ]
   ],
   "featuredCaseStudy": {
@@ -115,8 +115,8 @@
   ],
   "testimonials": [
     {
-      "quote": "Client testimonial will be published here after verification.",
-      "name": "Client Name",
+      "quote": "Add a verified client testimonial here.",
+      "name": "Verified Client",
       "role": "Client / Business Owner",
       "rating": 5
     }
