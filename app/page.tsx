@@ -4,8 +4,7 @@ import type { ReactNode } from "react";
 import { useMemo, useState } from "react";
 import {
   ArrowRight, BarChart3, CheckCircle2, Code2, Database, Facebook,
-  Gauge, Globe2, Mail, Menu, Moon, MousePointer2, ShieldCheck,
-  Target, X
+  Gauge, Mail, Menu, Moon, MousePointer2, ShieldCheck, X
 } from "lucide-react";
 import content from "@/data/content.json";
 
@@ -63,7 +62,7 @@ export default function Home() {
             <div className="portrait-placeholder"><span>SA.</span></div>
             <div className="signature">Md. Shahjalal Ahmed</div>
           </div>
-          <div className="hero-note"><span>Strategy</span><span>Measure</span><span>Optimize</span><span>Grow</span></div>
+          <div className="hero-note" aria-hidden="true"><span>Strategy</span><span>Measure</span><span>Optimize</span><span>Grow</span></div>
         </div>
       </section>
 
@@ -97,7 +96,7 @@ export default function Home() {
       <section id="case-studies" className="section-shell section">
         <div className="section-heading"><p className="eyebrow">{content.featuredCaseStudy.eyebrow}</p><h2>{content.featuredCaseStudy.title}</h2><p>{content.featuredCaseStudy.summary}</p></div>
         <div className="featured-case">
-          <div className="case-visual"><div className="case-chart"><BarChart3 size={56}/><span>Performance dashboard</span></div></div>
+          <div className="case-visual"><div className="case-chart"><BarChart3 size={56}/><span>Case study visual</span></div></div>
           <div className="case-content">
             <div className="metric-grid">{content.featuredCaseStudy.metrics.map(([value,label]) => <div key={label}><strong>{value}</strong><span>{label}</span></div>)}</div>
             <a className="btn primary" href="#contact">View Full Case Study <ArrowRight size={17}/></a>
