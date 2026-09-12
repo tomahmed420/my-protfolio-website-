@@ -123,14 +123,14 @@ export default function Home() {
 
       <section id="projects" className="section-shell section section-muted">
         <div className="section-heading inline-heading"><div><p className="eyebrow">PROJECTS</p><h2>Client work first. Experiments second.</h2><p>A curated portfolio—not a list of everything I have built.</p></div>
-          <div className="segmented"><button className={projectMode==="Client Work"?"active":""} onClick={() => setProjectMode("Client Work")}>Client Work</button><button className={projectMode==="Vibe Code"?"active":""} onClick={() => setProjectMode("Vibe Code")}>Vibe Code</button></div>
+          <div className="segmented" aria-label="Project type"><button className={projectMode==="Client Work"?"active":""} onClick={() => setProjectMode("Client Work")}>Client Work</button><button className={projectMode==="Vibe Code"?"active":""} onClick={() => setProjectMode("Vibe Code")}>Vibe Code</button></div>
         </div>
         <div className="project-grid">{projects.map((p) => <article className="project-card" key={p.title}><div className="image-placeholder"><Code2 size={30}/></div><div><p className="kicker">{p.category}</p><h3>{p.title}</h3><p>{p.description}</p><a href="#contact">View Project <ArrowRight size={15}/></a></div></article>)}</div>
       </section>
 
       <section id="contact" className="section-shell section contact-section">
         <div><p className="eyebrow">LET’S WORK TOGETHER</p><h2>{content.contact.headline}</h2><p>{content.contact.body}</p><div className="cta-row"><a className="btn primary" href={"mailto:"+content.contact.email}>Get in Touch <ArrowRight size={17}/></a><a className="btn secondary" href="#case-studies">View Case Studies</a></div></div>
-        <div className="contact-proof"><ShieldCheck size={24}/><strong>Professional & measurable</strong><span>Strategy, tracking and optimization built around business outcomes.</span></div>
+        <div className="contact-proof"><ShieldCheck size={24}/><strong>Serious about the numbers.</strong><span>Before we talk tactics, we clarify the business objective, measurement and what success should look like.</span><div className="contact-mini-list"><span>01 — Business objective</span><span>02 — Measurement</span><span>03 — Acquisition</span><span>04 — Optimization</span></div></div>
       </section>
 
       <footer className="footer">
